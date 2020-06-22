@@ -51,6 +51,17 @@ Body:
 Method:`DELETE`<br/>
 URL:`/adnetwork/{id}`
 
+# Attributes
+id = int64<br/>
+description = string<br/>
+value = int<br/>
+platform = string<br/>
+osversion = string<br/>
+appname = string<br/>
+appversion = string<br/>
+countrycode = string<br/>
+adtype = string
+
 # Assumptions
 - For added logic `AdMob doesn’t work on any android os version 9 so it should be returned to the app, but works on other os versions`, assumed it meant shouldn't and not should
 - No database was created to save the values, everything is saved in `output.txt`
