@@ -11,7 +11,7 @@ AdMediation - Assignment
 - Run command `$ gcloud app deploy`
 - Run command `$ gcloud app browse` to see the URL where the App runs
 
-# REST Examples
+# Usage - REST Examples
 - Get All Ad Networks <br/>
 Method:`GET`<br/>
 URL:`/adnetworks`
